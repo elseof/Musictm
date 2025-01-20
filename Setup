@@ -1,0 +1,1 @@
+apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip screen -y && cd && rm -rf AdityaPlayer && git clone https://github.com/AdityaHalder/AdityaPlayer && cd AdityaPlayer && pip3 install -r requirements.txt --force-reinstall && screen -R AdityaPlayer
